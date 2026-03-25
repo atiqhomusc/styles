@@ -1,17 +1,5 @@
 
 :root{
-  --lock: 0; 
-  --pe: none; 
-  --img: url('https://c.files.bbci.co.uk/E8BC/production/_104908595_seized.jpg'); 
-}
-
-html::before{
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 2147483647;
-  background: var(--img) center/cover no-repeat;
-  opacity: var(--lock);
-  transition: opacity .18s linear;
-  pointer-events: var(--pe);
+  --grv-lock: 0; 
+  --grv-img: url('https://c.files.bbci.co.uk/E8BC/production/_104908595_seized.jpg');
 }
